@@ -1,0 +1,12 @@
+spring:
+  application.name: ShareIt
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/share_it
+    username:
+    password:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
